@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    color: white;
+}
+#navBar{
+   
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+}
+#navBar img{
+    width: 11%;
+    height: 100%;
+    margin-left: 3.5%;
+}
+
+#navBarTwo{
+    display: flex;
+    gap: 35px;
+}
+#navBarThree{
+    margin-right: 3.5%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#navBarThree button{
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#body{
+    margin-top: 37px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+#body h2{
+    padding-bottom:10px;
+    font-size: 74px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#bookNow {
+    background-color: tomato;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 80px;
+    padding: 10px;
+
+}
+#body :nth-child(3){
+    font-size: 88px;
+
+}
+#body :nth-child(2){
+    padding-bottom: 0px;
+}
+#body :nth-child(8){
+    position: absolute;
+    top:632px;
+    left:658px;
+    font-size: 18px;
+
+}
+#one{
+    width: auto;
+    height: 282px;
+    position: absolute;
+    top: 123px;
+    left: 115px;
+    border-radius: 20px;
+}
+#three{
+    width: auto;
+    height: 339px;
+    position: absolute;
+    top: 335px;
+    left: 984px;
+    border-radius: 20px;
+}
+#five{
+    width: auto;
+    height: 185px;
+    position: absolute;
+    top: 119px;
+    left: 1108px;
+    border-radius: 20px 
+}
+#seven{
+    width: auto;
+    height: 245px;
+    position: absolute;
+    top: 429px;
+    left: 283px;
+    border-radius: 20px 
+}
+#eight{
+    width: auto;
+    height: 208px;
+    position: absolute;
+    top: 105px;
+    left: 54px;
+    border-radius: 20px;
+}
+#scrollDown{
+    padding: 15px;
+    background-color: rgba(177, 177, 177, 0.174);
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
